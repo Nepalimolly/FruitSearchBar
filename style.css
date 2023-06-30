@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+form {
+  width: 75vmin;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 250px 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 225, 69, 1) 0%,
+    rgba(253, 141, 29, 1) 71%
+  );
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 8px 4px;
+  border: none;
+  border-bottom: 1px solid rgb(255, 167, 53);
+  outline: none;
+  border-radius: 5px 5px 0 0;
+  background-color: rgb(255, 182, 63);
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+.suggestions {
+  width: 80%;
+  background-color: rgb(255, 182, 63);
+  border-radius: 0 0 5px 5px;
+}
+
+.li-items {
+  padding: 8px 5px;
+}
+.li-items:hover {
+  background-color: orangered;
+}
