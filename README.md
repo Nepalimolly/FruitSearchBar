@@ -23,7 +23,7 @@ Welcome to the Fruit Search Bar project! This interactive web application showca
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/FruitSearchBar.git`
+1. Clone the repository: `git clone https://github.com/Nepalimolly/FruitSearchBar.git`
 2. Open the `index.html` file in your preferred web browser.
 
 ## Usage
